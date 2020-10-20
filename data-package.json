@@ -9,28 +9,98 @@
     'encoding': 'UTF-8',
     'schema': {
       'fields': [{
-          'name': 'atomic number',
+          'name': 'title',
           'type': 'integer',
           'format': 'default'
         },
         {
-          'name': 'symbol',
+          'name': 'date added',
+          'type': 'integer',
+          'format': 'default'
+        },
+        {
+          'name': 'template',
           'type': 'string',
           'format': 'default'
         },
         {
-          'name': 'name',
-          'type': 'string',
-          'format': 'default'
-        },
-        {
-          'name': 'atomic mass',
+          'name': 'cycle',
           'type': 'number',
           'format': 'default'
         },
         {
-          'name': 'metal or nonmetal?',
+          'name': 'session',
           'type': 'string',
+          'format': 'default'
+        },
+        {
+          'name': 'state under review',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'recommendation',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'recommending state',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Recommending State - Regional Group',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Recommending State - Organisations',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Recommending State - Organisations',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Action Category',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Response',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Issues',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Issues',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Geolocation',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Documents',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Attachments',
+          'type': 'number',
+          'format': 'default'
+        },
+        {
+          'name': 'Published',
+          'type': 'number',
           'format': 'default'
         }],
     'missingValues': ['']
