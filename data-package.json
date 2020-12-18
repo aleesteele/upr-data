@@ -13,21 +13,21 @@
           "type": "integer",
           "format": "default",
           "title": "Title",
-          "description": "Unknown"
+          "description": "Number of the recommendation, begins from the third cycle"
         },
         {
           "name": "Date Added",
           "type": "integer",
           "format": "default",
           "title": "Date Added",
-          "description": "Unknown, could be the date added to the system"
+          "description": "Date added to UPR Info system (not OHCHR)"
         },
         {
           "name": "Template",
           "type": "string",
           "format": "default",
           "title": "Template",
-          "description": "Unknown, recommendation by default. This may be for coding purposes."
+          "description": "Type of document considered (recommendation or voluntary pledge)"
         },
         {
           "name": "Cycle",
@@ -104,28 +104,28 @@
           "type": "string",
           "format": "default",
           "title": "",
-          "description": "Unknown"
+          "description": "Not used"
         },
         {
           "name": "Documents",
           "type": "string",
           "format": "default",
           "title": "",
-          "description": "Unknown"
+          "description": "Not used"
         },
         {
           "name": "Attachments",
           "type": "string",
           "format": "default",
           "title": "",
-          "description": "Unknown"
+          "description": "Not used"
         },
         {
           "name": "Published",
           "type": "string",
           "format": "default",
           "title": "",
-          "description": "Unknown, published"
+          "description": "Date that UPR Info has published information publically, may differ from day UPR added information to database backend"
         }],
     "missingValues": [""]
     }
