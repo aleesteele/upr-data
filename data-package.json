@@ -1,41 +1,135 @@
 {
-  'profile': 'tabular-data-package',
-  'resources': [{
-    'path': 'data.csv',
-    'profile': 'tabular-data-resource',
-    'name': 'data',
-    'format': 'csv',
-    'mediatype': 'text/csv',
-    'encoding': 'UTF-8',
-    'schema': {
-      'fields': [{
-          'name': 'atomic number',
-          'type': 'integer',
-          'format': 'default'
+  "profile": "tabular-data-package",
+  "resources": [{
+    "path": "data.csv",
+    "profile": "tabular-data-resource",
+    "name": "data",
+    "format": "csv",
+    "mediatype": "text/csv",
+    "encoding": "UTF-8",
+    "schema": {
+      "fields": [{
+          "name": "Title",
+          "type": "integer",
+          "format": "default",
+          "title": "Title",
+          "description": "Unknown"
         },
         {
-          'name': 'symbol',
-          'type': 'string',
-          'format': 'default'
+          "name": "Date Added",
+          "type": "integer",
+          "format": "default",
+          "title": "Date Added",
+          "description": "Unknown, could be the date added to the system"
         },
         {
-          'name': 'name',
-          'type': 'string',
-          'format': 'default'
+          "name": "Template",
+          "type": "string",
+          "format": "default",
+          "title": "Template",
+          "description": "Unknown, recommendation by default. This may be for coding purposes."
         },
         {
-          'name': 'atomic mass',
-          'type': 'number',
-          'format': 'default'
+          "name": "Cycle",
+          "type": "number",
+          "format": "default",
+          "title": "Cycle",
+          "description": "Which UPR cycle: 1 (2008-2012) 2 (2012-2016) or 3 (2017-2021)"
         },
         {
-          'name': 'metal or nonmetal?',
-          'type': 'string',
-          'format': 'default'
+          "name": "Session",
+          "type": "string",
+          "format": "default",
+          "title": "Session Number and Date",
+          "description": "First number is the session (30+) and date (month+year)"
+        },
+        {
+          "name": "State under Review",
+          "type": "string",
+          "format": "default",
+          "title": "Rev State",
+          "description": "State being reviewed by UPR process"
+        },
+        {
+          "name": "Recommendation",
+          "type": "string",
+          "format": "default",
+          "title": "Rec",
+          "description": "Listed recommendation by state, separated by commas"
+        },
+        {
+          "name": "Recommending State",
+          "type": "string",
+          "format": "default",
+          "title": "Rec State",
+          "description": "State giving recommendation"
+        },
+        {
+          "name": "Recommending State - Regional Group",
+          "type": "string",
+          "format": "default",
+          "title": "Rec Reg Group",
+          "description": "Recommending groups: WEOG (Western European and other), Asia, GRULAC (Group of Latin American and Caribbean), Africa, EEG (Eastern European Group)"
+        },
+        {
+          "name": "Recommending State - Organisations",
+          "type": "string",
+          "format": "default",
+          "title": "Rec Org",
+          "description": "Recommending Organisations: EU (European Union), OEI (Organisation of Ibero-American States), OAS (Organisation of American States), AL (League of Arab States), OIC (Organisation of the Islamic Cooperation), ASEAN (Association of Southeast Asian Nations), OIF (Organisation internationale de la Francophonie), Commonwealth, ACS (Association of Caribbean States), AU (African Union), PIF (Pacific Islands Forum), CIS (Commonwealth of Independent States)"
+        },
+        {
+          "name": "Action Category",
+          "type": "string",
+          "format": "default",
+          "title": "Action",
+          "description": "Type of recommendation: 1 (minimal action), 2 (continuing action), 3 (considering action), 4 (general action), 5 (specific action)"
+        },
+        {
+          "name": "Response",
+          "type": "string",
+          "format": "default",
+          "title": "Response",
+          "description": "Type of response by state (supported, noted, any, no label)"
+        },
+        {
+          "name": "Issues",
+          "type": "number",
+          "format": "default",
+          "title": "Issues",
+          "description": "Categories of issues in recommendations, separated by pipe (|)"
+        },
+        {
+          "name": "Geolocation",
+          "type": "string",
+          "format": "default",
+          "title": "",
+          "description": "Unknown"
+        },
+        {
+          "name": "Documents",
+          "type": "string",
+          "format": "default",
+          "title": "",
+          "description": "Unknown"
+        },
+        {
+          "name": "Attachments",
+          "type": "string",
+          "format": "default",
+          "title": "",
+          "description": "Unknown"
+        },
+        {
+          "name": "Published",
+          "type": "string",
+          "format": "default",
+          "title": "",
+          "description": "Unknown, published"
         }],
-    'missingValues': ['']
+    "missingValues": [""]
     }
   }],
-  'name': 'periodic-table',
-  'title': 'Periodic Table'
+  "name": "periodic-table",
+  "title": "Periodic Table"
 }
